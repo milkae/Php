@@ -6,7 +6,7 @@ class Loader {
 		$this->generatePage($p);
 	}
 	public function generatePage($p){
-		$config = require 'config.php';
+		$config = require '../config.php';
 		if(array_key_exists($p, $this->pages)) {
 			$currentPage = '../partials/'.$this->pages[$p]['content'];
 			$title = $this->pages[$p]['title'];

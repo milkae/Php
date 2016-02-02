@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	require 'loader.php';
+	require '../lib/loader.php';
 	
 	if (isset($_GET['page'])) {
 		new Loader($_GET['page']);	
