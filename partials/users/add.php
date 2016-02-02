@@ -1,0 +1,1 @@
+<form action="" method="post"><h2>Ajoutez-le</h2><input type="text" id="user"><input type="submit" value="Nope"></form>
