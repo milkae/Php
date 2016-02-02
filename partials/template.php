@@ -8,10 +8,11 @@
 <body>
 	<header>
 		<nav>
-			<ul>
+			<ul id="menu">
 				<li><a href="?page=home">Home</a></li>
 				<li><a href="?page=turlututu">Turlututu</a></li>
 				<li><a href="?page=contact">Contact</a></li>
+				<li><a href="?page=list">Users</a></li>
 			</ul>
 		</nav>
 	</header>

@@ -1,10 +1,9 @@
 <?php
 	session_start();
-	require '../lib/loader.php';
+	require '../vendor/autoload.php';
+	require '../lib/Bdd.php';
+	require '../lib/Post.php';
+	require '../lib/Loader.php';
+	new Loader();
 	
-	if (isset($_GET['page'])) {
-		new Loader($_GET['page']);	
-	} else {
-		new Loader('home');
-	}
 	
