@@ -1,2 +1,5 @@
-<p>Tulututu !
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, doloribus tempora facere sed illum. Eligendi, repudiandae iste, ullam cumque provident minus error mollitia modi ex ea magnam iusto reiciendis. Aperiam.</p>
+<div>
+	<img src="<?= $faker->imageUrl(200, 200, 'cats') ?>" alt="">
+	<h2><?= $faker->name ?></h2>
+	<p><?= $faker->realtext ?></p>
+</div>

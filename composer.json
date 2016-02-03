@@ -1,5 +1,7 @@
 {
     "require": {
-        "j4mie/idiorm": "^1.5"
+        "j4mie/idiorm": "^1.5",
+        "fzaninotto/faker": "^1.5",
+        "league/plates": "^3.1"
     }
 }
